@@ -1,0 +1,31 @@
+body {
+    background-image: url('img/Bg-AI.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Cairo', sans-serif; /* استخدم خطًا مناسبًا للغة العربية */
+
+
+  }
+  
+  nav {
+    background-color: #034a32;
+  }
+  
+  .card {
+    transition: transform 0.2s; /* إضافة تأثير انتقال سلس */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* تكبير البطاقة عند المرور بالماوس */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* إضافة ظل خفيف */
+  }
+  
+  .fa-5x {
+    margin-top: 1rem; /* إضافة مسافة بين العنوان والأيقونة */
+  }
+  footer {
+
+    display: block;
+    position: static;
+  }
